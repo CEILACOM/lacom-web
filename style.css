@@ -1,0 +1,107 @@
+/* Estilos base para LACOM Centro Estético Integral */
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f5f1ea; /* beige claro */
+  color: #2a3a2a; /* verde oscuro */
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 90%;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Header */
+header {
+  background: linear-gradient(90deg, #2a3a2a, #506a4e);
+  color: #d4af37; /* dorado */
+  padding: 30px 0;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.8em;
+  font-weight: 700;
+}
+
+header .slogan {
+  font-style: italic;
+  font-size: 1.2em;
+  margin-top: 8px;
+}
+
+/* Secciones */
+section {
+  background: white;
+  margin: 30px 0;
+  padding: 25px 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(42, 58, 42, 0.15);
+}
+
+section h2 {
+  color: #2a3a2a;
+  margin-bottom: 15px;
+  border-bottom: 2px solid #d4af37;
+  padding-bottom: 6px;
+  font-weight: 600;
+}
+
+ul {
+  list-style-type: square;
+  padding-left: 20px;
+  color: #506a4e;
+}
+
+ul li {
+  margin: 8px 0;
+  font-size: 1.1em;
+}
+
+/* Botón contacto WhatsApp */
+.boton {
+  display: inline-block;
+  background-color: #2a3a2a; /* verde oscuro */
+  color: #d4af37; /* dorado */
+  padding: 14px 28px;
+  text-decoration: none;
+  font-weight: 700;
+  border-radius: 30px;
+  transition: background-color 0.3s ease;
+  margin-top: 12px;
+}
+
+.boton:hover {
+  background-color: #506a4e;
+  color: white;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px 10px;
+  font-size: 0.9em;
+  color: #506a4e;
+  background-color: #f5f1ea;
+  border-top: 1px solid #d4af37;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  header h1 {
+    font-size: 2em;
+  }
+
+  section {
+    padding: 20px 15px;
+  }
+
+  .boton {
+    padding: 12px 20px;
+  }
+}
